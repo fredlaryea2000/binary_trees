@@ -2,9 +2,10 @@
 
 /**
  * binary_tree_height - Determines the height of a binary tree.
- * @tree: A reference to the root node of the tree for which the height is being measured.
- *
- * Return: If the tree is NULL, the function should return 0; otherwise, it should return the calculated height.
+ * @tree: A reference to the root node of the tree for which
+ * the height is being measured.
+ * Return: If the tree is NULL, the function should return 0;
+ * otherwise, it should return the calculated height.
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {

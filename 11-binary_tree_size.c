@@ -2,7 +2,8 @@
 
 /**
  * binary_tree_size - Determines the size of a binary tree.
- * @tree: A reference to the root node of the tree for which the size is being measured.
+ * @tree: A reference to the root node of the tree for which
+ * the size is being measured.
  *
  * Return: The number of nodes in the tree.
  */
