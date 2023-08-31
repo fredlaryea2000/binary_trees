@@ -85,14 +85,16 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
 
 /**
  * bst_remove - Deletes a node from a binary search tree.
- * @root: A reference to the root node of the binary search tree 
+ * @root: A reference to the root node of the binary search tree
  * from which a node is being removed.
  * @value: The specific value to be eliminated within the binary search tree.
  *
- * Return: A reference to the updated root node following the removal operation.
+ * Return: A reference to the updated root node following the
+ * removal operation.
  *
  * Description: When the node scheduled for deletion possesses two
- *children, it is exchanged with its immediate in-order successor. */
+ *children, it is exchanged with its immediate in-order successor.
+ */
 bst_t *bst_remove(bst_t *root, int value)
 {
 	return (bst_remove_recursive(root, root, value));

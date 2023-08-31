@@ -5,7 +5,8 @@
  * @array: A reference to the first element of the array to be converted.
  * @size: The number of elements in @array.
  *
- * Return: A reference to the root node of the created AVL, or NULL upon failure.
+ * Return: A reference to the root node of the created AVL, or
+ * NULL upon failure.
  */
 avl_t *array_to_avl(int *array, size_t size)
 {
